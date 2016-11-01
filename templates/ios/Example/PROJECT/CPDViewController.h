@@ -1,13 +1,13 @@
 //
-//  CPDViewController.h
-//  PROJECT
+//  OWSDKViewController.h
+//  OfferWowSDK
 //
-//  Created by PROJECT_OWNER on TODAYS_DATE.
-//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
+//  Created by frank on 10/31/2016.
+//  Copyright (c) 2016 frank. All rights reserved.
 //
 
 @import UIKit;
 
-@interface CPDViewController : UIViewController
+@interface OWSDKViewController : UIViewController
 
 @end

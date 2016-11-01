@@ -1,14 +1,14 @@
 //
-//  CPDAppDelegate.m
-//  PROJECT
+//  OWSDKAppDelegate.m
+//  OfferWowSDK
 //
-//  Created by PROJECT_OWNER on TODAYS_DATE.
-//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
+//  Created by frank on 10/31/2016.
+//  Copyright (c) 2016 frank. All rights reserved.
 //
 
-#import "CPDAppDelegate.h"
+#import "OWSDKAppDelegate.h"
 
-@implementation CPDAppDelegate
+@implementation OWSDKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

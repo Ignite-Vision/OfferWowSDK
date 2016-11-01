@@ -1,14 +1,14 @@
 //
-//  CPDAppDelegate.h
-//  PROJECT
+//  OWSDKAppDelegate.h
+//  OfferWowSDK
 //
-//  Created by PROJECT_OWNER on TODAYS_DATE.
-//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
+//  Created by frank on 10/31/2016.
+//  Copyright (c) 2016 frank. All rights reserved.
 //
 
 @import UIKit;
 
-@interface CPDAppDelegate : UIResponder <UIApplicationDelegate>
+@interface OWSDKAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
