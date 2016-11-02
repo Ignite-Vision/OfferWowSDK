@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  # s.source_files = 'Pod/Classes/**/*'
+    s.source_files = 'Pod/Classes/**/*'
   
   # s.resource_bundles = {
   #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
@@ -36,7 +36,8 @@ Pod::Spec.new do |s|
 
   #  s.public_header_files = 'OWSDKCoreKitObjectC.framework/Headers/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.vendored_frameworks='Frameworks/OWSDKCoreKitObjectC.framework'
+    s.ios.vendored_frameworks='OWSDKCoreKitObjectC.framework'
+    #s.xcconfig={'FRAMEWORK_SEARCH_PATHS'=>'$(PODS_ROOT)/Frameworks/'}
     s.dependency 'AFNetworking'
     s.dependency 'OWSDKModelKit'
 end
