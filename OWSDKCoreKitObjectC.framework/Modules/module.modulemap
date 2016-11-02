@@ -1,6 +1,0 @@
-framework module OWSDKCoreKitObjectC {
-  umbrella header "OWSDKCoreKitObjectC.h"
-
-  export *
-  module * { export * }
-}

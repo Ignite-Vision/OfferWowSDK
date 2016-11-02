@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OWSDKCoreKit'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'OfferWowSDK OWSDKCoreKit for iOS'
 
 # This description is used to generate tags and improve search results.
@@ -28,16 +28,18 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-    s.source_files = 'Pod/Classes/**/*'
+  #  s.source_files = 'Pod/Classes/**/*'
   
   # s.resource_bundles = {
   #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
   # }
 
-  #  s.public_header_files = 'OWSDKCoreKitObjectC.framework/Headers/*.h'
+    s.public_header_files = 'OWSDKCoreKitObjectC.framework/Headers/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.ios.vendored_frameworks='OWSDKCoreKitObjectC.framework'
     #s.xcconfig={'FRAMEWORK_SEARCH_PATHS'=>'$(PODS_ROOT)/Frameworks/'}
-    s.dependency 'AFNetworking'
+  s.source                  = { :http => "https://github.com/Ignite-Vision/OfferWowSDK/releases/download/0.0.4/OWSDKCoreKitObjectC.framework.zip" }
+  #s.ios.vendored_frameworks = "**/iOS/AFNetworking.framework"    
+s.dependency 'AFNetworking'
     s.dependency 'OWSDKModelKit'
 end
