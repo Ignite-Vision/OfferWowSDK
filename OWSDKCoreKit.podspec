@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
   #  s.public_header_files = 'OWSDKCoreKitObjectC.framework/Headers/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.vendored_frameworks='OWSDKCoreKitObjectC.framework'
+    s.vendored_frameworks='Frameworks/OWSDKCoreKitObjectC.framework'
     s.dependency 'AFNetworking'
     s.dependency 'OWSDKModelKit'
 end
